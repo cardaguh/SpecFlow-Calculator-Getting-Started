@@ -1,0 +1,169 @@
+﻿2020-04-21T16:22:07.1811187-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-04-21T16:22:07.1811187-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.2.22 in Framework clr40 in x86 mode execution started
+2020-04-21T16:22:07.1811187-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\guest\source\repos\Calculator\packages\SpecRun.Runner.3.2.22\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-04-21T16:22:07.2190197-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\guest\source\repos\Calculator\Calculator\bin\Debug\Calculator.dll
+2020-04-21T16:22:07.2190197-05:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\guest\source\repos\Calculator\TestResults" (default)
+2020-04-21T16:22:07.2190197-05:00;VSTestExecutionThread;Info;Profile: 
+2020-04-21T16:22:07.2748387-05:00;VSTestExecutionThread;Info;Log file path: C:\Users\guest\source\repos\Calculator\TestResults\Unnamed project__2020-04-21T162207.log
+2020-04-21T16:22:07.2818494-05:00;Thread#13;Info;Checking activation
+2020-04-21T16:22:07.3436926-05:00;Thread#13;Info;Activation check completed
+2020-04-21T16:22:07.3436926-05:00;Thread#13;Info;Starting test run
+2020-04-21T16:22:07.3526280-05:00;Thread#13;Info;Discovering target: Default
+2020-04-21T16:22:07.3536253-05:00;Thread#13;Info;Discovering tests from assembly: C:\Users\guest\source\repos\Calculator\Calculator\bin\Debug\Calculator.dll
+2020-04-21T16:22:07.7026920-05:00;Thread#13;Info;Discovered tests from assembly: C:\Users\guest\source\repos\Calculator\Calculator\bin\Debug\Calculator.dll
+2020-04-21T16:22:07.7046865-05:00:Test Suite Dump
+2020-04-21T16:22:07.7067217-05:00:#0: Unnamed project/ - 
+2020-04-21T16:22:07.7067217-05:00:#1: Default - 
+2020-04-21T16:22:07.7067217-05:00:#2: Calculator - 
+2020-04-21T16:22:07.7067217-05:00:#3: Calculator - 
+2020-04-21T16:22:07.7446123-05:00:#4: Add two numbers - TestAssembly:Calculator/Feature:Calculator/Scenario:Add+two+numbers
+2020-04-21T16:22:07.7446123-05:00:#5: Subtract two numbers - TestAssembly:Calculator/Feature:Calculator/Scenario:Subtract+two+numbers
+2020-04-21T16:22:07.7446123-05:00:#6: Multiply two numbers - TestAssembly:Calculator/Feature:Calculator/Scenario:Multiply+two+numbers
+2020-04-21T16:22:07.7446123-05:00:#7: Divide two numbers - TestAssembly:Calculator/Feature:Calculator/Scenario:Divide+two+numbers
+2020-04-21T16:22:07.7446123-05:00:End: Test Suite Dump
+2020-04-21T16:22:07.7655631-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-04-21T16:22:07.7675585-05:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-04-21T16:22:07.7675585-05:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-04-21T16:22:07.7715460-05:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-04-21T16:22:07.7715460-05:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-04-21T16:22:07.7715460-05:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-04-21T16:22:07.7715460-05:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-04-21T16:22:07.7725429-05:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-04-21T16:22:07.7735428-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-04-21T16:22:07.7755362-05:00:Thread #0: creating new test thread executor for Calculator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-04-21T16:22:07.7775311-05:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-04-21T16:22:07.7795186-05:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-04-21T16:22:07.7814822-05:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-04-21T16:22:07.9689808-05:00:Thread#0:T:-> Loading plugin C:\Users\guest\source\repos\Calculator\Calculator\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-04-21T16:22:07.9739660-05:00:Thread#0:T:-> Using default config
+2020-04-21T16:22:08.3918529-05:00:Thread#0: Test #4/0 is started on thread #0
+2020-04-21T16:22:08.4187792-05:00:Thread#0:B:Given I have entered 50 into the calculator
+2020-04-21T16:22:08.5105643-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+2020-04-21T16:22:08.5115614-05:00:Thread#0:B:And I have also entered 70 into the calculator
+2020-04-21T16:22:08.5125667-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator(70) (0,0s)
+2020-04-21T16:22:08.5125667-05:00:Thread#0:B:When I press add
+2020-04-21T16:22:08.5135609-05:00:Thread#0:T:done: CalculatorSteps.WhenIPressAdd() (0,0s)
+2020-04-21T16:22:08.5135609-05:00:Thread#0:B:Then the result should be 120 on the screen
+2020-04-21T16:22:08.5205083-05:00:Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(120) (0,0s)
+2020-04-21T16:22:08.5315123-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-04-21T16:22:08.5315123-05:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2020-04-21T16:22:08.5315123-05:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-04-21T16:22:08.5315123-05:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-04-21T16:22:08.5315123-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-04-21T16:22:08.5315123-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-04-21T16:22:08.5315123-05:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-04-21T16:22:08.5315123-05:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-04-21T16:22:08.5315123-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-04-21T16:22:08.5434765-05:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0,1506274 seconds
+2020-04-21T16:22:08.5454714-05:00:Thread#0: Test #5/0 is started on thread #0
+2020-04-21T16:22:08.5464473-05:00:Thread#0:B:Given I have entered 50 into the calculator
+2020-04-21T16:22:08.5464473-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+2020-04-21T16:22:08.5464473-05:00:Thread#0:B:And I have also entered 70 into the calculator
+2020-04-21T16:22:08.5474339-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator(70) (0,0s)
+2020-04-21T16:22:08.5474339-05:00:Thread#0:B:When I press subtract
+2020-04-21T16:22:08.5474339-05:00:Thread#0:T:done: CalculatorSteps.WhenIPressSubtract() (0,0s)
+2020-04-21T16:22:08.5484326-05:00:Thread#0:B:Then the result should be -30 on the screen
+2020-04-21T16:22:08.5903202-05:00:Thread#0:T:error: Error de Assert.AreEqual. Se esperaba <-30>, pero es <-20>. 
+2020-04-21T16:22:08.6202404-05:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2020-04-21T16:22:08.6202404-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-04-21T16:22:08.6202404-05:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2020-04-21T16:22:08.6202404-05:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-04-21T16:22:08.6202404-05:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-04-21T16:22:08.6202404-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-04-21T16:22:08.6202404-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-04-21T16:22:08.6202404-05:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-04-21T16:22:08.6202404-05:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-04-21T16:22:08.6202404-05:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-04-21T16:22:08.6212376-05:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 0,0757662 seconds
+2020-04-21T16:22:08.6212376-05:00:Thread#0: Test #5/1 is started on thread #0
+2020-04-21T16:22:08.6212376-05:00:Thread#0:B:Given I have entered 50 into the calculator
+2020-04-21T16:22:08.6222366-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+2020-04-21T16:22:08.6222366-05:00:Thread#0:B:And I have also entered 70 into the calculator
+2020-04-21T16:22:08.6222366-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator(70) (0,0s)
+2020-04-21T16:22:08.6222366-05:00:Thread#0:B:When I press subtract
+2020-04-21T16:22:08.6222366-05:00:Thread#0:T:done: CalculatorSteps.WhenIPressSubtract() (0,0s)
+2020-04-21T16:22:08.6232321-05:00:Thread#0:B:Then the result should be -30 on the screen
+2020-04-21T16:22:08.6242289-05:00:Thread#0:T:error: Error de Assert.AreEqual. Se esperaba <-30>, pero es <-20>. 
+2020-04-21T16:22:08.6252265-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-04-21T16:22:08.6252265-05:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2020-04-21T16:22:08.6252265-05:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-04-21T16:22:08.6252265-05:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-04-21T16:22:08.6252265-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-04-21T16:22:08.6252265-05:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-04-21T16:22:08.6252265-05:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-04-21T16:22:08.6252265-05:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-04-21T16:22:08.6252265-05:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-04-21T16:22:08.6262230-05:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 0,0049854 seconds
+2020-04-21T16:22:08.6262230-05:00:Thread#0: Test #5/2 is started on thread #0
+2020-04-21T16:22:08.6262230-05:00:Thread#0:B:Given I have entered 50 into the calculator
+2020-04-21T16:22:08.6272227-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+2020-04-21T16:22:08.6272227-05:00:Thread#0:B:And I have also entered 70 into the calculator
+2020-04-21T16:22:08.6272227-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator(70) (0,0s)
+2020-04-21T16:22:08.6272227-05:00:Thread#0:B:When I press subtract
+2020-04-21T16:22:08.6282176-05:00:Thread#0:T:done: CalculatorSteps.WhenIPressSubtract() (0,0s)
+2020-04-21T16:22:08.6282176-05:00:Thread#0:B:Then the result should be -30 on the screen
+2020-04-21T16:22:08.6292155-05:00:Thread#0:T:error: Error de Assert.AreEqual. Se esperaba <-30>, pero es <-20>. 
+2020-04-21T16:22:08.6292155-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-04-21T16:22:08.6292155-05:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2020-04-21T16:22:08.6292155-05:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2020-04-21T16:22:08.6292155-05:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2020-04-21T16:22:08.6292155-05:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2020-04-21T16:22:08.6292155-05:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2020-04-21T16:22:08.6292155-05:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2020-04-21T16:22:08.6292155-05:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2020-04-21T16:22:08.6292155-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-04-21T16:22:08.6302442-05:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 0,0040212 seconds
+2020-04-21T16:22:08.6302442-05:00:Thread#0: Test #6/0 is started on thread #0
+2020-04-21T16:22:08.6322077-05:00:Thread#0:B:Given I have entered 50 into the calculator
+2020-04-21T16:22:08.6322077-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+2020-04-21T16:22:08.6322077-05:00:Thread#0:B:And I have also entered 10 into the calculator
+2020-04-21T16:22:08.6322077-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator(10) (0,0s)
+2020-04-21T16:22:08.6322077-05:00:Thread#0:B:When I press multiply
+2020-04-21T16:22:08.6332061-05:00:Thread#0:T:done: CalculatorSteps.WhenIPressMultiply() (0,0s)
+2020-04-21T16:22:08.6332061-05:00:Thread#0:B:Then the result should be 500 on the screen
+2020-04-21T16:22:08.6332061-05:00:Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(500) (0,0s)
+2020-04-21T16:22:08.6342030-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-04-21T16:22:08.6342030-05:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2020-04-21T16:22:08.6342030-05:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2020-04-21T16:22:08.6342030-05:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2020-04-21T16:22:08.6342030-05:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2020-04-21T16:22:08.6342030-05:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2020-04-21T16:22:08.6342030-05:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2020-04-21T16:22:08.6342030-05:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2020-04-21T16:22:08.6342030-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-04-21T16:22:08.6342030-05:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0,0039588 seconds
+2020-04-21T16:22:08.6342030-05:00:Thread#0: Test #7/0 is started on thread #0
+2020-04-21T16:22:08.6361976-05:00:Thread#0:B:Given I have entered 50 into the calculator
+2020-04-21T16:22:08.6371944-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+2020-04-21T16:22:08.6371944-05:00:Thread#0:B:And I have also entered 10 into the calculator
+2020-04-21T16:22:08.6371944-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator(10) (0,0s)
+2020-04-21T16:22:08.6371944-05:00:Thread#0:B:When I press divide
+2020-04-21T16:22:08.6381938-05:00:Thread#0:T:done: CalculatorSteps.WhenIPressDivide() (0,0s)
+2020-04-21T16:22:08.6381938-05:00:Thread#0:B:Then the result should be 5 on the screen
+2020-04-21T16:22:08.6381938-05:00:Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(5) (0,0s)
+2020-04-21T16:22:08.6381938-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-04-21T16:22:08.6381938-05:00:Thread#:Scheduler: at the end of normal test queue
+2020-04-21T16:22:08.6381938-05:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-04-21T16:22:08.6381938-05:00:Thread#0:Scheduler: No more tests for thread
+2020-04-21T16:22:08.6501971-05:00:Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0,0159941 seconds
+2020-04-21T16:22:08.8027550-05:00:Trying to cancel thread
+2020-04-21T16:22:08.8027550-05:00:Thread cancelled
+2020-04-21T16:22:08.8127282-05:00:Thread#-1:Scheduler: get next test for thread -1
+2020-04-21T16:22:08.8127282-05:00:Thread#:Scheduler: at the end of normal test queue
+2020-04-21T16:22:08.8127282-05:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-04-21T16:22:08.8207070-05:00;Thread#13;Info;test run finished
+2020-04-21T16:22:08.8207070-05:00;Thread#13;Info;publishing test results
+2020-04-21T16:22:08.8287173-05:00;Thread#13;Info;test results published
+2020-04-21T16:22:08.8287173-05:00;Thread#13;Info;generating reports
+2020-04-21T16:22:08.9324382-05:00;Thread#13;Info;Starting external report generation process
+2020-04-21T16:22:10.5141753-05:00;Thread#13;Info;Successfully generated reports.
+2020-04-21T16:22:10.5161707-05:00;Thread#13;Info;Successfully generated reports
+2020-04-21T16:22:10.5251791-05:00:Total: 4 (test executions: 6)
+2020-04-21T16:22:10.5261781-05:00:Succeeded: 3
+2020-04-21T16:22:10.5271725-05:00:Ignored: 0
+2020-04-21T16:22:10.5271725-05:00:Pending: 0
+2020-04-21T16:22:10.5271725-05:00:Skipped: 0
+2020-04-21T16:22:10.5281409-05:00:Failed: 1
+2020-04-21T16:22:10.5381467-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-04-21T16:22:10.5391129-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\guest\source\repos\Calculator\TestResults\Unnamed project__2020-04-21T162207.html'
+========== End of log file ==========

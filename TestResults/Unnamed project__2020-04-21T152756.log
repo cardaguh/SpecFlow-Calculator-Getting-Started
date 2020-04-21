@@ -1,0 +1,17 @@
+﻿2020-04-21T15:27:56.7962606-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-04-21T15:27:56.7972924-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.2.22 in Framework clr40 in x86 mode execution started
+2020-04-21T15:27:56.7972924-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\guest\source\repos\Calculator\packages\SpecRun.Runner.3.2.22\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-04-21T15:27:56.8341894-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\guest\source\repos\Calculator\Calculator\bin\Debug\Calculator.dll
+2020-04-21T15:27:56.8351566-05:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\guest\source\repos\Calculator\TestResults" (default)
+2020-04-21T15:27:56.8351566-05:00;VSTestExecutionThread;Info;Profile: 
+2020-04-21T15:27:56.8979908-05:00;VSTestExecutionThread;Info;Log file path: C:\Users\guest\source\repos\Calculator\TestResults\Unnamed project__2020-04-21T152756.log
+2020-04-21T15:27:56.9049698-05:00;Thread#13;Info;Checking activation
+2020-04-21T15:27:59.1203264-05:00;Thread#13;Error;No tests executed (activation needed)
+2020-04-21T15:27:59.1412697-05:00:Total: 0
+2020-04-21T15:27:59.1452605-05:00:Succeeded: 0
+2020-04-21T15:27:59.1462610-05:00:Ignored: 0
+2020-04-21T15:27:59.1462610-05:00:Pending: 0
+2020-04-21T15:27:59.1472764-05:00:Skipped: 0
+2020-04-21T15:27:59.1472764-05:00:Failed: 0
+2020-04-21T15:27:59.1572288-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

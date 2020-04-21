@@ -1,0 +1,2 @@
+Trabajo para el curso de Calidad del Software de la Universidad de Antioquia. Realizado por Carlos Daniel Agudelo Henao.
+Este trabajo muestra las pruebas con el lenguaje DSL GHERKIN y pruebas con el framework SpecFlow. Implementando las operaciones de una calculadora sencilla del tutorial de specflow getting-started.

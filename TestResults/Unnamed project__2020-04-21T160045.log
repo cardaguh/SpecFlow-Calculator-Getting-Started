@@ -1,0 +1,70 @@
+﻿2020-04-21T16:00:45.8805124-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-04-21T16:00:45.8805124-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.2.22 in Framework clr40 in x86 mode execution started
+2020-04-21T16:00:45.8805124-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\guest\source\repos\Calculator\packages\SpecRun.Runner.3.2.22\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-04-21T16:00:45.9184199-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\guest\source\repos\Calculator\Calculator\bin\Debug\Calculator.dll
+2020-04-21T16:00:45.9184199-05:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\guest\source\repos\Calculator\TestResults" (default)
+2020-04-21T16:00:45.9184199-05:00;VSTestExecutionThread;Info;Profile: 
+2020-04-21T16:00:46.0889526-05:00;VSTestExecutionThread;Info;Log file path: C:\Users\guest\source\repos\Calculator\TestResults\Unnamed project__2020-04-21T160045.log
+2020-04-21T16:00:46.0959402-05:00;Thread#13;Info;Checking activation
+2020-04-21T16:00:46.1577354-05:00;Thread#13;Info;Activation check completed
+2020-04-21T16:00:46.1577354-05:00;Thread#13;Info;Starting test run
+2020-04-21T16:00:46.1677427-05:00;Thread#13;Info;Discovering target: Default
+2020-04-21T16:00:46.1677427-05:00;Thread#13;Info;Discovering tests from assembly: C:\Users\guest\source\repos\Calculator\Calculator\bin\Debug\Calculator.dll
+2020-04-21T16:00:46.5237575-05:00;Thread#13;Info;Discovered tests from assembly: C:\Users\guest\source\repos\Calculator\Calculator\bin\Debug\Calculator.dll
+2020-04-21T16:00:46.5257529-05:00:Test Suite Dump
+2020-04-21T16:00:46.5277788-05:00:#0: Unnamed project/ - 
+2020-04-21T16:00:46.5277788-05:00:#1: Default - 
+2020-04-21T16:00:46.5277788-05:00:#2: Calculator - 
+2020-04-21T16:00:46.5277788-05:00:#3: Calculator - 
+2020-04-21T16:00:46.5656477-05:00:#4: Add two numbers - TestAssembly:Calculator/Feature:Calculator/Scenario:Add+two+numbers
+2020-04-21T16:00:46.5656477-05:00:End: Test Suite Dump
+2020-04-21T16:00:46.5885859-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-04-21T16:00:46.5905806-05:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-04-21T16:00:46.5905806-05:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-04-21T16:00:46.5956064-05:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-04-21T16:00:46.5965664-05:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-04-21T16:00:46.5965664-05:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-04-21T16:00:46.5965664-05:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-04-21T16:00:46.5975640-05:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-04-21T16:00:46.5985603-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-04-21T16:00:46.6015503-05:00:Thread #0: creating new test thread executor for Calculator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-04-21T16:00:46.6035774-05:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-04-21T16:00:46.6055712-05:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-04-21T16:00:46.6075452-05:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-04-21T16:00:46.8319670-05:00:Thread#0:T:-> Loading plugin C:\Users\guest\source\repos\Calculator\Calculator\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-04-21T16:00:46.8379529-05:00:Thread#0:T:-> Using default config
+2020-04-21T16:00:47.4064333-05:00:Thread#0: Test #4/0 is started on thread #0
+2020-04-21T16:00:47.4403401-05:00:Thread#0:B:Given I have entered 50 into the calculator
+2020-04-21T16:00:47.5470253-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+2020-04-21T16:00:47.5480212-05:00:Thread#0:B:And I have also entered 70 into the calculator
+2020-04-21T16:00:47.5480212-05:00:Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator(70) (0,0s)
+2020-04-21T16:00:47.5490394-05:00:Thread#0:B:When I press add
+2020-04-21T16:00:47.5500487-05:00:Thread#0:T:done: CalculatorSteps.WhenIPressAdd() (0,0s)
+2020-04-21T16:00:47.5500487-05:00:Thread#0:B:Then the result should be 120 on the screen
+2020-04-21T16:00:47.5570279-05:00:Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(120) (0,0s)
+2020-04-21T16:00:47.5689641-05:00:Thread#0:Scheduler: get next test for thread 0
+2020-04-21T16:00:47.5689641-05:00:Thread#:Scheduler: at the end of normal test queue
+2020-04-21T16:00:47.5689641-05:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-04-21T16:00:47.5689641-05:00:Thread#0:Scheduler: No more tests for thread
+2020-04-21T16:00:47.5939005-05:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0,1874672 seconds
+2020-04-21T16:00:47.6198642-05:00:Trying to cancel thread
+2020-04-21T16:00:47.6198642-05:00:Thread cancelled
+2020-04-21T16:00:47.6268453-05:00:Thread#-1:Scheduler: get next test for thread -1
+2020-04-21T16:00:47.6268453-05:00:Thread#:Scheduler: at the end of normal test queue
+2020-04-21T16:00:47.6268453-05:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-04-21T16:00:47.6288076-05:00;Thread#13;Info;test run finished
+2020-04-21T16:00:47.6288076-05:00;Thread#13;Info;publishing test results
+2020-04-21T16:00:47.6358177-05:00;Thread#13;Info;test results published
+2020-04-21T16:00:47.6358177-05:00;Thread#13;Info;generating reports
+2020-04-21T16:00:47.7405047-05:00;Thread#13;Info;Starting external report generation process
+2020-04-21T16:00:50.0723449-05:00;Thread#13;Info;Successfully generated reports.
+2020-04-21T16:00:50.0743395-05:00;Thread#13;Info;Successfully generated reports
+2020-04-21T16:00:50.0813220-05:00:Total: 1
+2020-04-21T16:00:50.0833167-05:00:Succeeded: 1
+2020-04-21T16:00:50.0833167-05:00:Ignored: 0
+2020-04-21T16:00:50.0843143-05:00:Pending: 0
+2020-04-21T16:00:50.0843143-05:00:Skipped: 0
+2020-04-21T16:00:50.0843143-05:00:Failed: 0
+2020-04-21T16:00:50.0942872-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-04-21T16:00:50.0942872-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\guest\source\repos\Calculator\TestResults\Unnamed project__2020-04-21T160045.html'
+========== End of log file ==========
